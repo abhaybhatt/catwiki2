@@ -9,6 +9,7 @@
     .bb_main {
         display: flex;
         flex-direction: column;
+        width: 100%;
     }
   }
 
@@ -72,3 +73,41 @@ line-height: 22px;
 
 color: rgba(41, 21, 7, 0.6);
 }
+
+.bb_image1{
+    width: 250px;
+    height: 160px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+}
+
+@media screen and (max-width: 480px) {
+    .bb_image1{
+        width: 150px;
+        height: 190px;
+        padding-right: 20px;
+        padding-bottom: 20px;
+    }
+  }
+.bb_image2{
+    width: 195px;
+    height: 293px;
+}
+
+@media screen and (max-width: 480px) {
+    .bb_image2{
+        width: 175px;
+        height: 265px;
+    }
+  }
+.bb_image3{
+    width: 234px;
+    height: 385px;
+}
+
+@media screen and (max-width: 480px) {
+    .bb_image3{
+        width: 200px;
+        height: 295px;
+    }
+  }

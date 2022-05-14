@@ -25,7 +25,7 @@ const MidBox = ({setBreedSelected}) => {
         // console.log('data', data)
         return(
             data.map((d, key) => (
-                <Link to='/cat'  onClick={setBreedSelected(d)} style={{marginRight: '5%', cursor: 'pointer'}}>
+                <Link to='/cat'  onClick={setBreedSelected(d)} style={{marginRight: '5%', cursor: 'pointer', textDecoration: 'none'}}>
                     <img  className='mb_catImage' src={d.image.url} />
                     <div className='mb_catname'>{d.name}</div>
                 </Link>

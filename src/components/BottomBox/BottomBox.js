@@ -14,10 +14,10 @@ const BottomBox = () => {
             </div>
             <div className='bb_right'>
                 <div style={{display: 'flex', flexDirection: 'column'}}>
-                    <img style={{width: "250px", height: "160px", paddingBottom: '20px', paddingRight: '20px'}} src={img2} />
-                    <img style={{width: "195px", height: "293px"}} src={img1} />
+                    <img  className='bb_image1'  src={img2} />
+                    <img  className='bb_image2' src={img1} />
                 </div>
-                <div><img style={{width: "238px", height: "385px"}}  src={img3} /></div>
+                <div><img className='bb_image3'   src={img3} /></div>
             </div>
         </div>
     )

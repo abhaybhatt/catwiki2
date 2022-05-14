@@ -7,6 +7,12 @@
     background-repeat: no-repeat;
     background-size: 100% 100%;
     text-align: center;
+    margin-top: 20px;
+}
+@media screen and (max-width: 480px) {
+    .tb_main {
+        width: 100%;
+    }
 }
 
 .tb_head1{
@@ -59,7 +65,7 @@ padding-top: 11px;
 
 @media screen and (max-width: 480px) {
     .tb_inputDiv {
-        width: 90%;
+        width: 97%;
     }
 }
 

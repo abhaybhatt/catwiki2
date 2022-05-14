@@ -34,6 +34,12 @@ line-height: 33px;
 color: #FFFFFF;
 }
 
+@media screen and (max-width: 480px) {
+    .ft_head1{
+        font-size: 16px;
+    }
+  }
+
 .ft_head2{
     font-family: 'Montserrat';
     font-style: normal;
@@ -45,6 +51,11 @@ color: #FFFFFF;
     
     color: #FFFFFF;
 }
+@media screen and (max-width: 480px) {
+    .ft_head2{
+        font-size: 12px;
+    }
+  }
 
 .ft_haed3{
     font-family: 'Montserrat';
@@ -52,8 +63,12 @@ color: #FFFFFF;
     font-weight: 500;
     font-size: 18px;
     line-height: 22px;
-    /* identical to box height */
-    
-    
+    /* identical to box height */    
     color: #FFFFFF;
 }
+
+@media screen and (max-width: 480px) {
+    .ft_haed3{
+        font-size: 12px;
+    }
+  }
