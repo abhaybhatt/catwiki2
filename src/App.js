@@ -24,11 +24,11 @@ function App() {
 },[])
 console.log('breed', breedSelected)
   return (
-    <div className="App">
+    <div >
       <Router>
         <Routes>
           <Route path="/" element = {
-            <div>
+            <div className="App">
                <TopBox setBreedSelected={setBreedSelected} breeds={breeds}/>
                 <MidBox setBreedSelected={setBreedSelected}/>
                 <BottomBox/>
