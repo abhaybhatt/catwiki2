@@ -1,0 +1,59 @@
+.ft_main{
+    position: fixed;
+    padding: 10px 10px 0px 10px;
+    bottom: 0;
+    left: 0;
+    /* Height of the footer*/ 
+    height: 40px;
+    margin-top: 20px;
+
+
+
+    width: 90%;
+    color: white;
+    text-align: center;
+/* height: 322.09px; */
+
+
+background: #000000;
+border-radius: 42px 42px 0px 0px;
+
+display: flex;
+justify-content: space-around;
+}
+
+.ft_head1{
+    font-family: 'Mystery Quest';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 33px;
+/* identical to box height */
+
+
+color: #FFFFFF;
+}
+
+.ft_head2{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    /* identical to box height */
+    
+    
+    color: #FFFFFF;
+}
+
+.ft_haed3{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    /* identical to box height */
+    
+    
+    color: #FFFFFF;
+}

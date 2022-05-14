@@ -1,0 +1,95 @@
+.tb_main{
+    width: 90%;
+    height: 400px;
+    border-radius: 42px 42px 0px 0px;
+    background-color: #000000;
+    background-image: url('../../assets/HeroImagemd.png');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    text-align: center;
+}
+
+.tb_head1{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 64px;
+    color: #FFFFFF;
+}
+
+.tb_head2{
+    font-family: 'Montserrat';
+font-style: normal;
+font-weight: 500;
+font-size: 24px;
+color: #FFFFFF;
+padding-bottom: 50px;
+padding-top: 11px;
+}
+
+.tb_input{
+    border: none;
+    outline: none;
+}
+
+.tb_inputDiv{
+    position: relative;
+    width: 60%;
+    height: 60px;
+    background: #FFFFFF;
+    border-radius: 59px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.tb_main1{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 4%;
+}
+
+.tb_options{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    left: 0px;
+    top: 79.45px;
+    width: 100%;
+    height: fit-content;
+    max-height: 219.72px;
+    background: #FFFFFF;
+    border-radius: 24px;
+    overflow-y: scroll;
+    cursor: pointer;
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+}
+
+.tb_breed{
+    width: 360.01px;
+    height: 86.16px;
+    /* background: rgba(151, 151, 151, 0.1); */
+    border-radius: 12px;
+    margin-top: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    color: #000000;
+    text-decoration: none;
+}
+.tb_breed :hover{
+    background: rgba(240, 12, 12, 0.1);
+}
+
+.tb_options::-webkit-scrollbar {
+    display: none;
+  }
+  
