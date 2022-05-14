@@ -19,6 +19,9 @@
 @media screen and (max-width: 880px) {
     .cat_left {
         width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
     }
 }
 .cat_right{
@@ -28,12 +31,23 @@
 @media screen and (max-width: 880px) {
     .cat_right {
         width: 100%;
+        margin-left: 5%;
+        margin-top: 20px;
     }
 }
 
 .cat_image{
     width: 371.04px;
 height: 371.04px;
+margin-left: 6%;
+}
+
+
+@media screen and (max-width: 880px) {
+    .cat_image{
+        width: 171.04px;
+        height: 171.04px;
+    }
 }
 
 .cat_head1{

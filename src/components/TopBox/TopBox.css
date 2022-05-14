@@ -16,6 +16,13 @@
     color: #FFFFFF;
 }
 
+@media screen and (max-width: 480px) {
+    .tb_head1 {
+        font-size: 32px;
+    }
+}
+
+
 .tb_head2{
     font-family: 'Montserrat';
 font-style: normal;
@@ -26,14 +33,21 @@ padding-bottom: 50px;
 padding-top: 11px;
 }
 
+@media screen and (max-width: 480px) {
+    .tb_head2 {
+        font-size: 18px;
+    }
+}
+
 .tb_input{
     border: none;
     outline: none;
+    width: 80%;
 }
 
 .tb_inputDiv{
     position: relative;
-    width: 60%;
+    width: 70%;
     height: 60px;
     background: #FFFFFF;
     border-radius: 59px;
@@ -41,6 +55,12 @@ padding-top: 11px;
     flex-direction: row;
     align-items: center;
     justify-content: space-around;
+}
+
+@media screen and (max-width: 480px) {
+    .tb_inputDiv {
+        width: 90%;
+    }
 }
 
 .tb_main1{
